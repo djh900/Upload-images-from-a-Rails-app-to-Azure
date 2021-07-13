@@ -1,8 +1,8 @@
-#Image Upload with Microsoft Azure
+# Image Upload with Microsoft Azure
 
 Microsoft Azure is a cloud computing service which competes with AWS. In this readme, I will explain how to upload images from Rails apps to Microsoft Azure instead of AWS.
 
-###Creating a Storage Account
+### Creating a Storage Account
 
 Firstly, you will need to sign up for Azure [here](https://azure.microsoft.com/en-au/free/search/?&ef_id=EAIaIQobChMIo5iNiNbe8QIVGJhmAh2L3wbrEAAYASAAEgJZ0_D_BwE:G:s&OCID=AID2200144_SEM_EAIaIQobChMIo5iNiNbe8QIVGJhmAh2L3wbrEAAYASAAEgJZ0_D_BwE:G:s&gclid=EAIaIQobChMIo5iNiNbe8QIVGJhmAh2L3wbrEAAYASAAEgJZ0_D_BwE). You can sign up using your GitHub or Microsoft account.
 
@@ -48,7 +48,7 @@ Creating the storage account will take approximately 60 seconds to complete. If 
 
 ![Storage account overview](/images/image10.png)
 
-###Creating a container
+### Creating a container
 
 Now, create a container to store the images from your Rails app in:
 
@@ -66,7 +66,7 @@ The created container will now be shown in the storage account containers:
 
 You're now ready to start uploading images from a Rails App to Azure.
 
-###Implementing image upload in a Rails app
+### Implementing image upload in a Rails app
 
 If you have a Rails app setup and ready to go, you can skip this step. Otherwise, let's create a simple Rails app with a scaffold using the following terminal commands. This creates a basic app with CRUD actions to store books with titles, as well as setting up active storage so we can start uploading images.
 
